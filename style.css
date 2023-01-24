@@ -79,6 +79,17 @@ header {
     border: none;
 }
 
+.button-04 {
+    margin-top: 50px;
+    color: white;
+    background-color: #7289da;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+}
+
 #arrow {
     font-size: 15px;
 }
@@ -155,37 +166,62 @@ header {
     height: 500px;
 }
 
-
-
-
-
-.blocco-3 {
-    background-color: #d3d3d3;
-}
-
-.blocco-4 {
-    height: 1000px;
-    background-color: #d3d3d3;
-}
-
-.blocco-verde {
-    height: 900px;
+.img-04 {
+    background-image: url(/img/item4-big.svg);
+    background-repeat: no-repeat;
+    height: 500px;
     width: 1200px;
-    background-color: #228b22;
-    border: 1px dashed black;
+    margin-left: 150px;
+}
+.box-testo-immagine {
+    text-align: center;
+    height: 800px;
+    width: 1200px;
 }
 
-.blocco-5 {
-    background-color: #23272a;
-    height: 630px;
-}
-
-.blocco-rosso {
-    background-color: #f08080;
-    border: 1px dashed black;
+.box-testo-bandiera-icone {
+   
+    color: #7289da ;
     height: 580px;
     width: 360px;
 }
+
+#bandiera-ita{
+    margin-top: 20px;
+    height: 20px;
+    width: 25px;
+}
+#italiano{
+    margin-left: -30px;
+}
+
+.icone{
+    padding-top: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .blocco-verde-chiaro {
     background-color: #20b2aa;
@@ -218,4 +254,23 @@ header {
 .bottone {
     background-color: #ffb6c1;
     border: 1px dashed black;
+}
+
+
+
+
+
+
+.blocco-3 {
+    background-color: #d3d3d3;
+}
+
+.blocco-4 {
+    height: 1000px;
+    background-color: #d3d3d3;
+}
+
+.blocco-5 {
+    background-color: #23272a;
+    height: 630px;
 }
