@@ -1,0 +1,143 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* reset */
+
+/* debug */
+
+.debug header {
+    background-color: lightblue;
+    height: 40px;
+}
+
+.debug .blocco-1 {
+    background-color: blue;
+    height: 500px;
+}
+
+
+/* debug */
+.blocco,
+.blocco-1,
+.blocco-2,
+.blocco-3,
+.blocco-4,
+.blocco-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prima-colonna,
+.seconda-colonna,
+.terza-colonna {
+    border: 1px solid;
+    border-color: black;
+    background-color: orange;
+    border-style: dashed;
+    margin-top: 10px;
+}
+
+.prima-colonna,
+.terza-colonna {
+    width: 240px;
+}
+
+.seconda-colonna {
+    text-align: center;
+    width: 720px;
+}
+
+.terza-colonna {
+    text-align: end;
+}
+
+.blocco-rosa {
+    background-color: #ee82ee;
+    border: 1px dashed black;
+    height: 400px;
+    width: 900px;
+}
+
+.blocco-2 {
+    height: 600px;
+}
+
+.blocco-blue {
+    border: 1px dashed black;
+    background-color: #1e90ff;
+    width: 720px;
+    height: 500px;
+}
+
+.blocco-rosa-chiaro {
+    border: 1px dashed black;
+    background-color: #ffc0cb;
+    width: 420px;
+    height: 500px;
+}
+
+.blocco-3 {
+    background-color: #d3d3d3;
+}
+
+.blocco-4 {
+    height: 1000px;
+    background-color: #d3d3d3;
+}
+
+.blocco-verde {
+    height: 900px;
+    width: 1200px;
+    background-color: #228b22;
+    border: 1px dashed black;
+}
+
+.blocco-5 {
+    background-color: #23272a;
+    height: 630px;
+}
+
+.blocco-rosso {
+    background-color: #f08080;
+    border: 1px dashed black;
+    height: 580px;
+    width: 360px;
+}
+
+.blocco-verde-chiaro {
+    background-color: #20b2aa;
+    border: 1px dashed rgb(246, 247, 249);
+    height: 580px;
+    width: 215px;
+}
+
+.blocco-6 {
+    height: 110px;
+    background-color: #23272a;
+    border: #d3d3d3 solid;
+    display: flex;
+    justify-content: center;
+
+}
+
+.casella-finale {
+    background-color: #7fffd4;
+    margin-top: 25px;
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo,
+.bottone {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
