@@ -79,7 +79,7 @@ header {
     border: none;
 }
 
-#arrow{
+#arrow {
     font-size: 15px;
 }
 
@@ -126,18 +126,34 @@ header {
     height: 500px;
 }
 
-.testo-img-01{
+.testo-img-01,
+.testo-img-02,
+.testo-img-03 {
     width: 420px;
     height: 500px;
     color: black;
 }
 
-.att-testo{
-    padding-top: 25px;
+.att-testo {
+    padding-top: 35px;
     line-height: 160%;
     letter-spacing: 2px;
 }
 
+
+.img-02 {
+    background-image: url(/img/item2.svg);
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 500px;
+}
+
+.img-03 {
+    background-image: url(/img/item3.svg);
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 500px;
+}
 
 
 
@@ -203,29 +219,3 @@ header {
     background-color: #ffb6c1;
     border: 1px dashed black;
 }
-
-
-
-
-
-
-
-
-
-.blocco-rosa-chiaro {
-    border: 1px dashed black;
-    background-color: #ffc0cb;
-    color: black;
-    width: 420px;
-    height: 500px;
-}
-
-
-
-
-.blocco-blue{
-    background-color: blue;
-        width: 720px;
-    height: 500px;
-    }
-    
