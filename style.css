@@ -11,16 +11,8 @@
 
 /* debug */
 
-.debug header {
-    height: 500px;
-}
-
-.debug .blocco-1 {
-    height: 500px;
-}
-
-
 /* debug */
+
 .blocco,
 .blocco-1,
 .blocco-2,
@@ -81,6 +73,16 @@ header {
 
 .button-04 {
     margin-top: 50px;
+    color: white;
+    background-color: #7289da;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+}
+
+.button-05 {
     color: white;
     background-color: #7289da;
     height: 40px;
@@ -173,6 +175,7 @@ header {
     width: 1200px;
     margin-left: 150px;
 }
+
 .box-testo-immagine {
     text-align: center;
     height: 800px;
@@ -180,86 +183,53 @@ header {
 }
 
 .box-testo-bandiera-icone {
-   
-    color: #7289da ;
+    color: #7289da;
     height: 580px;
     width: 360px;
 }
 
-#bandiera-ita{
+#bandiera-ita {
     margin-top: 20px;
     height: 20px;
     width: 25px;
 }
-#italiano{
+
+#italiano {
     margin-left: -30px;
 }
 
-.icone{
+.icone {
     padding-top: 15px;
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.blocco-verde-chiaro {
-    background-color: #20b2aa;
-    border: 1px dashed rgb(246, 247, 249);
+.colonna-voci-01,
+.colonna-voci-02,
+.colonna-voci-03,
+.colonna-voci-04 {
     height: 580px;
     width: 215px;
 }
 
-.blocco-6 {
-    height: 110px;
-    background-color: #23272a;
-    border: #d3d3d3 solid;
-    display: flex;
-    justify-content: center;
-
+.primo-colore {
+    padding-bottom: 15px;
+    color: #7289da;
 }
 
-.casella-finale {
-    background-color: #7fffd4;
+.secondo-colore {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.logo-bottone {
+    border-top: 1px solid #7289da;
     margin-top: 25px;
     width: 1200px;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
-.logo,
-.bottone {
-    background-color: #ffb6c1;
-    border: 1px dashed black;
-}
-
-
-
-
-
 
 .blocco-3 {
     background-color: #d3d3d3;
@@ -273,4 +243,11 @@ header {
 .blocco-5 {
     background-color: #23272a;
     height: 630px;
+}
+
+.blocco-6 {
+    height: 110px;
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
 }
